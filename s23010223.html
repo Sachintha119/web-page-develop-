@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GreenScape</title>
+    <style>
+        /* WEB Page Body Styles */
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: hsl(165, 77%, 32%);
+        }
+
+        /* Back ground image */
+        #webpage {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #08bd59;
+            background-image: url('image03forProject.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* page Titel Styles */
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 0;
+            color: rgb(0, 4, 255);
+        }
+
+        nav {
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        /* Navigation bar line Styles */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Navigation bar background Styles */
+        nav ul li {
+            font-weight: bold;
+            margin: 2px auto;
+            padding: 2px;
+            display: inline;
+            margin-right: 10px;
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        /* Navigation bar Styles */
+        nav ul li a {
+            text-decoration: none;
+            color: #030804;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(253, 253, 253, 0.986);
+        }
+
+
+        div[id^="page-"] {
+            display: none;
+        }
+
+        div[id^="page-"].active {
+            display: block;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        /* Display containers as inline-block to align them side by side */
+        .container {
+            display: inline-block;
+            margin-right: 20px;
+            vertical-align: top;
+
+
+        }
+
+        h4 {
+            color: #f0efef;
+            text-decoration: underline;
+            margin-bottom: 10px;
+            margin: 0;
+        }
+
+        ul {
+            padding-left: 0;
+            margin-top: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #14131323;
+            padding: 1px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #f7f5f5;
+            line-height: 1.5;
+            white-space: pre-line;
+        }
+
+        /* Pollution image styles */
+        .image01 {
+            float: right;
+            margin-left: 10px;
+            width: 25%;
+            height: 25%;
+            padding: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="webpage">
+        <h1>GreenScape</h1>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('Introduction')">Introduction</a></li>
+                <li><a href="#" onclick="showPage('Soil pollution')">Soil pollution</a></li>
+                <li><a href="#" onclick="showPage('Air pollution')">Air pollution</a></li>
+                <li><a href="#" onclick="showPage('Water pollution')">Water pollution</a></li>
+                <li><a href="#" onclick="showPage('Sound pollution')">Sound pollution</a></li>
+            </ul>
+        </nav>
+
+        <!-- Introduction Page -->
+        <div id="page-Introduction" class="active">
+            <p>
+            <h3>Introduction</h3>
+
+            </p>
+            <p><img src="Pollution.png" alt="Pollution" class="image01">
+                &nbsp &nbsp &nbsp &nbsp Pollution is the introduction of harmful substances or contaminants into the
+                environment, causing adverse effects on ecosystems, human health, and well-being. It can take various
+                forms, such as air pollution, water pollution, soil contamination, and noise pollution. The sources of
+                pollution are diverse, including industrial activities, transportation, agriculture, and improper waste
+                disposal. Addressing pollution is crucial to safeguarding the planet and ensuring a sustainable future
+                for all living beings.
+
+            <p>
+
+        </div>
+
+        <!-- Soil pollution Page -->
+        <div id="page-Soil pollution">
+            <p>Information about local pollution...
+
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+            </p>
+        </div>
+
+        <!-- Air pollution Page -->
+        <div id="page-Air pollution">
+            <p>Tips and guides on sustainable living...
+
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+            </p>
+        </div>
+
+        <!-- Water pollution Page -->
+        <div id="page-Water pollution">
+            <p>Calendar of events and joining opportunities...
+
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+            </p>
+        </div>
+
+        <!-- Sound pollution Page -->
+        <div id="page-Sound pollution">
+            <p>Connect with like-minded individuals...
+
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+            </p>
+        </div>
+    </div>
+
+    <p>
+    <div class="container">
+        <!-- Add other content information items here -->
+        <h4>Content Information</h4>
+        <ul>
+            <h5>
+                <li>Calendar of festivities</li>
+                <li>Pricing</li>
+                <li>Terms of use</li>
+            </h5>
+        </ul>
+    </div>
+
+    <div class="container">
+        <!-- Add other legal items here -->
+        <h4>Legal</h4>
+        <ul>
+            <h5>
+                <li>About us</li>
+                <li>License agreement</li>
+                <li>Privacy policy</li>
+            </h5>
+        </ul>
+    </div>
+
+    <div class="container">
+        <!-- Add social media links or information here -->
+        <h4>Social Media</h4>
+        <ul>
+            <h5>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>LinkedIn</li>
+                <li>Twitter</li>
+            </h5>
+        </ul>
+    </div>
+    </div>
+    <p>
+    <footer>
+        <h5>2010-2024 Freepik Company S.L. All rights reserved.</h5>
+    </footer>
+    </p>
+
+    </p>
+
+    <!-- Java Script Code -->
+    <script>
+        function showPage(pageId) {
+            var pages = document.querySelectorAll('[id^="page-"]');
+            for (var i = 0; i < pages.length; i++) {
+                pages[i].classList.remove('active');
+            }
+            document.getElementById('page-' + pageId).classList.add('active');
+        }
+
+    </script>
+
+</body>
+
+</html>
